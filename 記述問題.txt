@@ -41,5 +41,3 @@ PRIMARY KEYはNULL不可で一意、UNIQUEはNULL許可で一意。
 インデックスを貼りすぎるとどうなるか？
 INSERTやUPDATE時のパフォーマンス低下やストレージ増加を招く。
 
-
-体調が悪い
