@@ -42,4 +42,5 @@ PRIMARY KEYはNULL不可で一意、UNIQUEはNULL許可で一意。
 INSERTやUPDATE時のパフォーマンス低下やストレージ増加を招く。
 
 
-体調が悪い
+OLTP向けとOLAP向けDB設計の違いは？
+OLTPは取引処理重視で正規化中心、OLAPは分析重視で非正規化中心。
